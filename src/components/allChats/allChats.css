@@ -1,0 +1,152 @@
+.allChats {
+    width: 580px;
+    margin: 5.1% 0 0 3%;
+}
+
+.aChatTitle {
+     display: flex;
+     height: 5.6vh;
+     /* margin: 0 14px 0 0; */
+     justify-content: space-between;
+}
+
+.ChatSort {
+     display: grid;
+     font-weight: 700;
+     font-size: 36px;
+     align-content: center;
+}
+
+.reChat {
+     width: 140px;
+     font-size: 18px;
+     color: #707C97;
+     font-weight: 700;
+     border: none;
+     background: none;
+}
+
+/* @media only screen and (max-width: 1700px) { */
+     .tButton {
+          width: 240px;
+          height: 61.65px;
+          color: white;
+          border: none;
+          display: flex;
+          background: linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%);
+          box-shadow: 6px 6px 25px rgb(42 139 242 / 15%), 4px 4px 25px rgb(42 139 242 / 5%), 10px 6px 25px rgb(42 139 242 / 15%);
+          border-radius: 6px;
+          font-size: 20px;
+          line-height: 24px;
+          align-content: center;
+          align-items: center;
+          justify-content: space-evenly;
+     }
+
+/* @media only screen and (min-width: 1700px) {
+.tButton {
+     width: 40%;
+     color: white;
+     border: none;
+     display: flex;
+     background: linear-gradient(92.68deg, #7CB8F7 0%, #2A8BF2 100%);
+     box-shadow: 6px 6px 25px rgb(42 139 242 / 15%), 4px 4px 25px rgb(42 139 242 / 5%), 10px 6px 25px rgb(42 139 242 / 15%);
+     border-radius: 6px;
+     font-size: 20px;
+     line-height: 24px;
+     align-content: center;
+     align-items: center;
+}
+} */
+
+.tbAdd {
+     height: 20px;
+     margin: 0px 6%;
+}
+
+.aSearch {
+     display: flex;
+     margin: 24.66px 0 0 0;
+     border-radius: 6px;
+     background: white;
+     height: 71.93px;
+     /* box-shadow: 0px 10px 55px rgb(0 0 0 / 5%), 0px 4px 10px rgb(0 0 0 / 25%), 0px 10px 25px rgb(0 0 0 / 5%); */
+     justify-content: space-between;
+}
+
+.aItemSearch {
+     display: flex;
+     align-items: center;
+     gap: 6px;
+     margin: 0px 0 0 8%;
+ }
+
+.aSeIcon {
+     color: #707C97;
+     height: 25px;
+     width: 25px;
+ }
+
+.aSIput {
+     height: 100%;
+     border: none;
+     background: none;
+     font-size: 16px;
+     font-weight: 700;
+     color: #707C97;
+}
+
+input:focus ,
+select:focus {
+     outline: none !important;
+ }
+
+.aSFilter {
+     color: #707C97;
+     font-weight: bold;
+     font-size: 18px;
+     width: 148px;
+     border: none;
+     background: none;
+     border-left: 2px solid #F3F3FB;
+     padding: 0 0 0 5%;
+     margin: 0 7% 0 0;
+ }
+
+.aContactAcc {
+     display: grid;
+     width: 597px;
+     margin: 20px 0 0 3%;
+     overflow: auto;
+     gap: 20px;
+}
+
+::-webkit-scrollbar {
+     width: 6px;
+}
+   
+   /* Track */
+::-webkit-scrollbar-track {
+     background: none;
+}
+   
+   /* Handle */
+::-webkit-scrollbar-thumb {
+     background: #B7BDCB;
+     border-radius: 10px;
+
+}
+   
+   /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+
+::-webkit-scrollbar-button { 
+     /* height: 136px;  */
+   }
+
+.scrollable-div {
+     overflow: auto;;
+}
+

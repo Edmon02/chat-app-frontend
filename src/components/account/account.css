@@ -1,0 +1,121 @@
+.button {
+     border: none;
+     background: none;
+     cursor: pointer;
+}
+
+.aAccounts {
+     display: grid;
+     padding: 31px 40px;
+     background-color: white; 
+     border-radius: 6px;
+     gap: 25px;
+     width: 580px;
+}
+
+.aAccounts.active {
+     background: linear-gradient(96.78deg, #7CB8F7 0%, #2A8BF2 100%);
+}
+
+.aAccounts.active .aType ,
+.aAccounts.active  .aTexts > * {
+     color: white;
+}
+
+.aAccounts.active  .aAcTime {
+     color: rgba(255, 255, 255, 0.75);
+}
+
+.aAccount {
+     display: flex;
+     flex-direction: row;
+     /* margin: 24.66px 14px 0 0;
+     background-color: white;
+     border-radius: 6px; */
+}
+
+.aImgA {
+     display: grid;
+     position: relative;
+}
+
+.aIUser {
+     width: 54px;
+     height: 55.49px;
+     border-radius: 100%;
+     border-radius: 100%;
+}
+
+.aActive {
+     width: 10.5px;
+     height: 10.5px;
+     margin: 5px 0 0 0;
+     position: absolute;
+     border: 1.5px solid #ffffff;
+     border-radius: 100%;
+     background-color: #00C305;
+}
+
+.aNaTA {
+     margin: 7px 0 0 20px;
+}
+
+.aName {
+     font-weight: 700;
+}
+
+.aType {
+     display: flex;
+     color: #2A8BF2;
+     font-size: 13px;
+     font-weight: 700;
+     gap: 10px;
+}
+
+.voic {
+     font-size: 19px;
+}
+
+.aAcTime {
+     display: flex;
+     margin: 9px 0 0 0px;
+     color: #707C97;
+     font-weight: 700;
+     margin-left: auto;
+}
+
+.aTexts {
+     display: flex;
+     gap: 20px;
+}
+
+.aText {
+     display: flex;
+     color: #707C97;
+     font-weight: 700;
+     line-height: 26px;
+     width: 450px;
+     font-size: 14.4px;
+     gap: 10px;
+     align-items: center;
+}
+
+.microfon {
+    height: 17px;
+    width: 17px;
+    font-weight: 700;
+}
+
+.aTCount {
+     display: flex;
+     width: 20px;
+     height: 20px;
+     border-radius: 100%;
+     background: #FF3366;
+     color: white;
+     margin: 10px;
+     box-shadow: 4px 4px 15px rgba(198, 27, 74, 0.05), 2px 2px 10px rgba(198, 27, 74, 0.1), 1px 1px 50px rgba(198, 27, 74, 0.15);
+     font-size: 13px;
+     align-items: center;
+    justify-content: center;
+}

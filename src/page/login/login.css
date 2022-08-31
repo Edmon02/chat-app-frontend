@@ -1,0 +1,110 @@
+html {
+     box-sizing: border-box;
+}
+*, *:before, *:after {
+     box-sizing: inherit;
+}
+
+body {
+     height: 100%;
+     background: linear-gradient(90deg, #7CB8F7 0%, #a96bff 100%);
+}
+
+
+.table {
+     height: 100%;
+     overflow-y: auto;
+}
+
+.loginChat {
+     width: 100%;
+     max-width: 25.5rem;
+     margin: 0 auto;
+     padding: 6.8125rem 1.5rem 1.5rem;
+     text-align: center;
+}
+
+.lText {
+     display: grid;
+     justify-items: center;
+     gap: 0.5em;
+}
+
+.title {
+     color: white;
+     font-size: 2rem;
+     line-height: 1.5;
+}
+
+.info {
+     font-size: 1rem;
+     font-weight: 400;
+     margin-bottom: 3rem;
+     line-height: 1.35;
+     color: rgba(0, 0, 0, 0.6);
+}
+
+.input-group {
+     cursor: pointer;
+     position: relative;
+     margin-bottom: 1.5rem;
+}
+
+
+.dropdown {
+     position: relative;
+}
+
+.input-group label {
+     display: block;
+    padding: 0 0.25rem;
+    position: absolute;
+    left: 0.75rem;
+    top: 1.1375rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #400099;
+    background: linear-gradient(90deg, #8d9cfa 0%, #8d9cfa 100%);
+    transition: transform .15s ease-out,color .15s ease-out;
+    cursor: text;
+    pointer-events: none;
+    transform-origin: left center;
+    white-space: nowrap;
+     transform: scale(0.75) translate(-0.5rem, -2.25rem);
+}
+
+.formControl {
+     display: block;
+     width: 100%;
+     height: 3.375rem;
+     padding: calc(0.75rem - 1px) calc(0.9rem - 1px);
+     border: 1px solid #400099;
+     border-radius: 0.75rem;
+     color: rgb(0, 0, 0);
+     background-color: rgb(255, 255, 255);
+     background: transparent;
+     outline: none;
+     transition: border-color .15s ease;
+     word-break: break-word;
+    -webkit-appearance: none;
+     font-size: 1rem;
+     line-height: 1.25rem;
+}
+
+.Button {
+     outline: none !important;
+     display: felx;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 3.5rem;
+     border-radius: 0.75rem;
+     border: 0;
+     background-size: cover;
+     padding: 0.625rem;
+     cursor: pointer;
+     text-transform: uppercase;
+     line-height: 1.2;
+     background-color: #2A0066;
+     color: white;
+}
